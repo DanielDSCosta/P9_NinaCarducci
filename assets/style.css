@@ -43,6 +43,11 @@ body {
   height: 20px;
 }
 
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -72,10 +77,6 @@ body {
   width: 100%;
   height: auto;
 }
-.carousel-item img {
-  width: 100%;
-  height: auto;
-}
 #about-me {
   flex: 2;
 }
@@ -95,9 +96,9 @@ body {
   font-size: 14px;
 }
 
-#gallery {
-  /*	min-height: 100vh; */
-}
+/* #gallery {
+		min-height: 100vh;
+} */
 .title {
   text-align: center;
   padding-block: 2em;
@@ -108,7 +109,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: black;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -218,6 +219,12 @@ body {
 .form-container {
   flex: 2;
 }
+
+.pictureCamera {
+  width: 419px;
+  height: 419px;
+}
+
 form {
   display: flex;
   flex-direction: column;
